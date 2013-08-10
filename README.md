@@ -3,10 +3,20 @@ scripts
 
 bunch of scripts for service-hub
 
-## Usage
+## How to install leiningen on Lubuntu 13.04
 
-``bash
-wget https://github.com/hanakpet/scripts/clj-install && sudo chmod a+x clj-install && clj-install
-``
+sudo apt-get install leiningen
 
-installs leiningen, and jdk-7-jre
+sudo apt-get remove leiningen
+
+RESTART
+
+cd /bin
+
+sudo wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
+
+sudo chmod a+x lein
+
+lein
+
+lein version
