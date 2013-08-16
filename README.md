@@ -1,9 +1,4 @@
-scripts
-=======
-
-bunch of scripts for service-hub
-
-## How to install leiningen on Lubuntu 13.04
+## How to install leiningen with emacs on Lubuntu 13.04
 
 sudo apt-get install leiningen
 
@@ -20,3 +15,15 @@ sudo chmod a+x lein
 lein
 
 lein version
+
+sudo apt-get install openjdk-7-jdk
+
+# Installation of Emacs 24 with custom theme from edtsech
+
+sudo apt-add-repository ppa:cassou/emacs
+
+sudo apt-get update
+
+sudo apt-get install emacs-snapshot emacs-goodies-el
+
+git clone git@github.com:edtsech/clojure-emacs-setup.git ~/.emacs.d
